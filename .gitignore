@@ -1,0 +1,33 @@
+# custom
+**/demo
+**/trained_models
+**/output
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+*.log
+
+# pyenv
+.python-version
+
+# virtualenv
+.venv/
+venv/
+
+# VSCode settings
+.vscode
+
+# IDEA files
+.idea
+
+# OSX dir files
+.DS_Store
+
+# Sublime Text settings
+*.sublime-workspace
+*.sublime-project
