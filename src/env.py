@@ -130,7 +130,7 @@ def create_train_env(world, stage, actions, output_path=None):
 
 class MultipleEnvironments:
     def __init__(self, world, stage, action_type, num_envs, output_path=None):
-        self.agent_conns, self.env_conns = zip(*[mp.Pipe() for _ in range(num_envs)])
+        self.agent_conns, self.env_conns = zip(*[mp.Pipe() for _ in range(num_envs)])  # con: connection
         if action_type == "right":
             actions = RIGHT_ONLY
         elif action_type == "simple":
